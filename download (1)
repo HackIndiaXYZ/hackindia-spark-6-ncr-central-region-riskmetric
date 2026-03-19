@@ -1,0 +1,20 @@
+# ===== .env.example =====
+# Copy this to .env and fill in your values
+# NEVER commit .env to version control
+
+# ── Server ───────────────────────────────────────────────────────────────────
+PORT=3000
+ALLOWED_ORIGIN=http://localhost:3000
+
+# ── LeakHunter AI (RapidAPI) ─────────────────────────────────────────────────
+# Get your key at: https://rapidapi.com/
+LEAKHUNTER_API_KEY=6704f320a6mshe53366d13a7fe81p113254jsn3b35ff3bb56a
+LEAKHUNTER_API_HOST=leakhunter-ai1.p.rapidapi.com
+
+# ── Python ML Engine ─────────────────────────────────────────────────────────
+# Use 'python3' on Linux/Mac, 'python' on Windows
+PYTHON_CMD=python3
+
+# ── Data Mode ────────────────────────────────────────────────────────────────
+# 'live' = real API calls | 'demo' = mock data for testing
+DATA_MODE=live
