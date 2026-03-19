@@ -1,6 +1,0 @@
-node_modules/
-.env
-*.joblib
-__pycache__/
-*.pyc
-.DS_Store
